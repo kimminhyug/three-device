@@ -1,5 +1,7 @@
-import React, { useRef } from "react";
-import { Gltf, useGLTF } from "@react-three/drei";
+"use client";
+import { Gltf, useGLTF } from '@react-three/drei';
+import { useRef } from 'react';
+
 const cisco1 = "/cisco1/scene.gltf";
 export default function Model(props) {
   const groupRef = useRef();
@@ -8,8 +10,8 @@ export default function Model(props) {
   //   console.log(materials);
   //   const keys = Object.keys(materials);
   return (
-    <group ref={groupRef} {...props} dispose={null}>
-      <Gltf isGroup={true} position={[0, 20, -150]} src={cisco1} />
+    <group   dispose={null}>
+      <Gltf {...props} isGroup={true} position={[0, 0, 0]} src={cisco1} />
       {/* {keys.map((key) => {
         return (
           <>
