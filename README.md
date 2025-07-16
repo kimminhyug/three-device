@@ -1,37 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-https://cd8z2q-3000.csb.app/
-## Getting Started
+## 프로젝트 소개
 
-First, run the development server:
+현재 회사는 장비 제조업체([PIOLINK](https://www.piolink.com/kr/?l=kor))이며, 전시회에 자주 참가 하고 있습니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+3D 모델을 활용해 실제 장비를 입체적으로 소개하고, 해당 사이트를 팜플렛 QR 코드에 첨부하면  
+박람회에서 장비를 본 방문객들이 돌아가서도 장비에 대해 더 쉽게 이야기할 수 있을 것이라 생각하여 이 내용을 프로젝트로 선정하였습니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 기술 스택
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# three-device
+- React 18, Next.js 14  
+- Three.js, @react-three/fiber, @react-three/drei  (3D 제어)
+- @react-three/rapier, @react-three/cannon, Rapier3D (화면 이동 제어 물리엔진 등)
+- maath (수학 및 벡터 계산 유틸)  
