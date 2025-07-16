@@ -13,3 +13,8 @@
 - Three.js, @react-three/fiber, @react-three/drei  (3D 제어)
 - @react-three/rapier, @react-three/cannon, Rapier3D (화면 이동 제어 물리엔진 등)
 - maath (수학 및 벡터 계산 유틸)  
+
+## 🖼️ 데모 이미지
+
+![AR-TEST](https://github.com/user-attachments/assets/45253e9e-c612-406e-b14f-3479f76bdebe)
+![3D-TEST](https://github.com/user-attachments/assets/1a87e296-9517-4498-890c-8e9898fc94bc)
